@@ -1,0 +1,34 @@
+[
+  {
+    "text": "vicim@asdf",
+    "fontSize": 28,
+    "fontFamily": "Arial",
+    "color": "#f00",
+    "alpha": "0.8",
+    "delay": "20-25"
+  },
+  {
+    "text": "Hello, my name is Roman",
+    "fontSize": 34,
+    "fontFamily": "Arial",
+    "color": "#ff0",
+    "alpha": "0.4",
+    "delay": "11-19"
+  },
+  {
+    "text": "+7(962)879-**-**",
+    "fontSize": 40,
+    "fontFamily": "Arial",
+    "color": "#f0f",
+    "alpha": "0.4",
+    "delay": "30-40"
+  },
+  {
+    "text": "Hello world 3!",
+    "fontSize": 16,
+    "fontFamily": "Arial",
+    "color": "#f00",
+    "alpha": "0.8",
+    "delay": "35-20"
+  }
+]

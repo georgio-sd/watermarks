@@ -1,0 +1,59 @@
+.wsv-controls
+  position: absolute
+
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+  overflow: hidden
+
+  z-index: 1
+
+  .wsv-controls-bar
+    color: #fff
+    position: absolute
+    display: flex
+    justify-content: space-between
+
+    height: 40px
+
+    left: 0
+    right: 0
+    bottom: 0
+
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 100%)
+
+    .button
+      $buttonMargin: 12px
+      color: inherit
+      cursor: pointer
+      background: none
+      border: none
+      box-shadow: none
+      outline: none
+      font-size: 22px
+      display: flex
+      align-items: center
+      margin-left: $buttonMargin / 2
+
+      &:first-child
+        margin-left: $buttonMargin
+
+      &:last-child
+        margin-left: 0px
+        margin-right: $buttonMargin
+
+    .wsv-controls-timeline
+      flex-grow: 1
+      position: relative
+
+    .wsv-controls-timeinfo
+      color: rgba(255,255,255,0.8)
+      margin: auto
+      height: 16px
+      line-height: 16px
+      font-size: 13px
+      margin-left: 10px
+      font-family: sans-serif
+      font-weight: 0

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Hello world 1!",
+    "fontSize": 28,
+    "fontFamily": "Arial",
+    "color": "ff0000",
+    "alpha": 0.5,
+    "delay": "10-17"
+  },
+  {
+    "text": "Hello world 2!",
+    "fontSize": 34,
+    "fontFamily": "Arial",
+    "color": "ff00ff",
+    "alpha": 0.6,
+    "delay": "10-17"
+  },
+  {
+    "text": "Hello world 3!",
+    "fontSize": 40,
+    "fontFamily": "Arial",
+    "color": "ffff00",
+    "alpha": 0.8,
+    "delay": "10-17"
+  }
+]

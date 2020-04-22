@@ -1,0 +1,26 @@
+[
+  {
+    "text": "vicimpa!!asd",
+    "fontSize": 14,
+    "fontFamily": "Arial",
+    "color": "#f00",
+    "alpha": "0.8",
+    "delay": "20-25"
+  },
+  {
+    "text": "Hello, my name is Fake",
+    "fontSize": 24,
+    "fontFamily": "Arial",
+    "color": "#ff0",
+    "alpha": "0.4",
+    "delay": "11-19"
+  },
+  {
+    "text": "+7(962)879-**-**",
+    "fontSize": 18,
+    "fontFamily": "Arial",
+    "color": "#f0f",
+    "alpha": "0.4",
+    "delay": "30-40"
+  }
+]

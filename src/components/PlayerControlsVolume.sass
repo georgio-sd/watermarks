@@ -1,0 +1,63 @@
+.wsv-player-controls-volume
+  margin-right: 10px
+  margin-left: 0px!important
+  position: relative
+
+  p
+    width: 24px
+    margin: 0!important
+    z-index: 1
+    padding-top: 4px
+
+  .wsv-player-controls-volumebar
+    position: absolute
+    
+    left: calc(5px - 100%)
+    right: -5px
+    bottom: 3px
+    height: 0px
+    border-radius: 30px
+    padding-bottom: 35px
+    overflow: hidden
+    opacity: 0
+    transition-duration: 0.3s
+
+    background: rgba(50,50,50,0.8)!important
+    cursor: default!important
+
+    .wsv-player-controls-volume-border
+      position: absolute
+      width: 6px
+
+      top: 15px
+      left: 0
+      right: 0
+      bottom: 40px
+
+      margin: auto
+
+      background-color: rgba(255,255,255,0.2)
+
+      .wsv-player-controls-volume-fill
+        position: absolute
+
+        left: 0
+        right: 0
+        bottom: 0
+        
+        background-color: rgba(255,255,255, 0.8)
+        transition-duration: 0.1s
+
+      .wsv-player-controls-volume-clicked
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background-color: rgba(255,255,255,0.1)
+        cursor: pointer
+
+  &:hover
+    .wsv-player-controls-volumebar
+      height: 70px
+      opacity: 1
